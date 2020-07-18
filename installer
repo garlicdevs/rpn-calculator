@@ -1,0 +1,17 @@
+Some notes during creating standalone app with pyinstaller
+
+1. Add this line to C:\Users\garli\.virtualenvs\rpn-XwSnkSQS\Lib\site-packages\PyInstaller\hooks\hook-pkg_resources.py
+hiddenimports = collect_submodules('pkg_resources._vendor') + ['pkg_resources.py2_warn'] (Windows 10 or Ubuntu)
+
+2. Type this command to generate standalone app
+Windows 10:
+pyinstaller --onefile --add-data "C:\Users\garli\.virtualenvs\rpn-XwSnkSQS\Lib\site-packages\pyfiglet";./pyfiglet rpn.py
+
+MacOS Mojave (10.14.6):
+export PATH=$PATH:/Users/alpha/Library/Python/3.6/bin
+launchctl setenv PATH $PATH
+pyinstaller --onefile --add-data "/Users/alpha/Library/Python/3.6/lib/python/site-packages/pyfiglet:./pyfiglet" rpn.py
+
+Ubuntu 18.04:
+export PATH="~/.local/bin/:$PATH"
+pyinstaller --onefile --add-data "/home/crev/.local/lib/python3.6/site-packages/pyfiglet:./pyfiglet" rpn.py
