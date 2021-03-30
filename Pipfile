@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-pygments = "==2.5.2"
+pygments = "==2.7.4"
 termcolor = "*"
 numpy = "*"
 mpmath = "*"

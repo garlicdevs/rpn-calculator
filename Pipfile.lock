@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7318d4e874b8b05ef1f3e0f7e038d03763a93032aaa4376dd11c933447ae3a24"
+            "sha256": "8ea700b681ee62785ba0fabea2f1912d8eeda575a96383389c736e3cb78cf8e3"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -30,12 +30,6 @@
             ],
             "index": "pypi",
             "version": "==0.4.3"
-        },
-        "future": {
-            "hashes": [
-                "sha256:b1bead90b70cf6ec3f0710ae53a525360fa360d306a86583adc6bf83a4db537d"
-            ],
-            "version": "==0.18.2"
         },
         "mpmath": {
             "hashes": [
@@ -93,12 +87,6 @@
             "index": "pypi",
             "version": "==1.0.3"
         },
-        "pefile": {
-            "hashes": [
-                "sha256:a5d6e8305c6b210849b47a6174ddf9c452b2888340b8177874b862ba6c207645"
-            ],
-            "version": "==2019.4.18"
-        },
         "pyfiglet": {
             "hashes": [
                 "sha256:c6c2321755d09267b438ec7b936825a4910fec696292139e664ca8670e103639",
@@ -109,11 +97,11 @@
         },
         "pygments": {
             "hashes": [
-                "sha256:2a3fe295e54a20164a9df49c75fa58526d3be48e14aceba6d6b1e8ac0bfd6f1b",
-                "sha256:98c8aa5a9f778fcd1026a17361ddaf7330d1b7c62ae97c3bb0ae73e0b9b6b0fe"
+                "sha256:bc9591213a8f0e0ca1a5e68a479b4887fdc3e75d0774e5c71c31920c427de435",
+                "sha256:df49d09b498e83c1a73128295860250b0b7edd4c723a32e9bc0d295c7c2ec337"
             ],
             "index": "pypi",
-            "version": "==2.5.2"
+            "version": "==2.7.4"
         },
         "pyinstaller": {
             "hashes": [
@@ -131,17 +119,10 @@
         },
         "pytz": {
             "hashes": [
-                "sha256:a494d53b6d39c3c6e44c3bec237336e14305e4f29bbf800b599253057fbb79ed",
-                "sha256:c35965d010ce31b23eeb663ed3cc8c906275d6be1a34393a1d73a41febf4a048"
+                "sha256:83a4a90894bf38e243cf052c8b58f381bfe9a7a483f6a9cab140bc7f702ac4da",
+                "sha256:eb10ce3e7736052ed3623d49975ce333bcd712c7bb19a58b9e2089d4057d0798"
             ],
-            "version": "==2020.1"
-        },
-        "pywin32-ctypes": {
-            "hashes": [
-                "sha256:24ffc3b341d457d48e8922352130cf2644024a4ff09762a2261fd34c36ee5942",
-                "sha256:9dc2d991b3479cc2df15930958b674a48a227d5361d413827a4cfd0b5876fc98"
-            ],
-            "version": "==0.2.0"
+            "version": "==2021.1"
         },
         "six": {
             "hashes": [
